@@ -18,7 +18,9 @@ Run GenerateGIF.exe in the folder of images ExamplePNGs to generate OutGif.gif w
 <img src="ExamplePNGs/outGif.gif" alt="outfileGIF" width="400"/>
 
 Images in the local folder ExamplePNGs, the extension of images is .png, no sort (sort by default) the output is ExampleGIF.gif, delay of each frame 50 ms and 2 loops:
-- ./GenerateGIF -p ./ExamplePNGs -e .png -s n -o ExampleGIF.gif -d 50 -l 2
+```bash
+GenerateGIF -p ./ExamplePNGs -e .png -s n -o ExampleGIF.gif -d 50 -l 2
+```
 
 <img src="ExampleGIF.gif" alt="outfileGIF" width="400"/>
 
